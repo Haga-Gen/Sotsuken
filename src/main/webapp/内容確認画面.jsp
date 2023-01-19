@@ -7,12 +7,12 @@
 <link rel="stylesheet" href="内容確認画面.css">
 <title>内容確認画面</title>
 </head>
-<body>
+<body background="カレンダー.jpg">
 	<%
 	String saveFile = (String)request.getAttribute("saveFile");
 	%> 
 	<img src="<%= saveFile %>">
-<H1>こちらの画像でよろしいですか？</H1>
+<h2><span>こちらの画像でよろしいですか？</span></h2>
 	<div class="container">
 	<form method="post" action="OperationAPI">
 	<input type="hidden" value="<%= saveFile %>">

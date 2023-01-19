@@ -8,8 +8,10 @@
 <link rel="stylesheet" href="complete.css">
 <title>追加完了</title>
 </head>
-<body>
-	<h2>予定が追加されました<br></h2>
-	<p>ホーム画面へ戻ります</p>
+<body background="カレンダー.jpg">
+	<p>&nbsp;</p>
+	<h1><span>予定が追加されました</span></h1>
+	<p>&nbsp;</p>
+	<h2>ホーム画面へ戻ります</h2>
 </body>
 </html>

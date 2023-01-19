@@ -20,7 +20,7 @@
 	<button type="submit" class="btn">送信する</button>
 </form>
 -->
- <h2>プレビュー</h2>
+ <h1>プレビュー</h1>
   <img id="preview"width="350px" height="625px">
     <script>
     function previewFile(example){

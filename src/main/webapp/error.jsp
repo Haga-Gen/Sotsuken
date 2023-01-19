@@ -9,7 +9,7 @@
 		<link rel="stylesheet" href="error.css">
 		<title>error</title>
 	</head>
-	<body>
+<body background="カレンダー.jpg">
 		<%
 		List<String> errMessage = (List<String>)request.getAttribute("errMessage");
 		%>
