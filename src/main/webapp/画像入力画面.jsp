@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="画像入力画面2.css">
 <title>画像入力画面</title>
 </head>
-<body>
-<h1>読み込みたい画像を選択してください</h1>
+<body background="カレンダー.jpg">
+<h1><span>読み込みたい画像を選択してください</span></h1>
 <form action="imageGet" method="post" enctype="multipart/form-data">
     <input type="file" name="pict" id="pict" accept="image/*" onchange="previewFile(this);">
  		<button type="submit" class="btn">送信する</button>
@@ -20,7 +20,7 @@
 	<button type="submit" class="btn">送信する</button>
 </form>
 -->
- <p>プレビュー</p>
+ <h2>プレビュー</h2>
   <img id="preview"width="350px" height="625px">
     <script>
     function previewFile(example){
