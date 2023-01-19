@@ -8,7 +8,8 @@
 <link rel="stylesheet" href="change.css">
 <title>内容の変更</title>
 </head>
-<body>
+<body background="カレンダー.jpg">
+
 	<%
 	String title = (String)request.getAttribute("title");
 	String startDate = (String)request.getAttribute("startDate");
@@ -18,11 +19,10 @@
 	String place = (String)request.getAttribute("place"); 
 	
 	%>
-	<H1>内容の確認</H1>
+	<H1><span>内容の確認</span></H1>
 	<form action="IcalSet" method="post">
 	
-	
-	<table border="1">
+	<table class="example3">
 		<tr>
 			<td>タイトル</td>
 			<td><input type="text" name="changed_title" value="<%=title%>"></td>
@@ -43,6 +43,7 @@
 			<td><input type="text" name="changed_place" value="<%=place%>"></td>
 		</tr>
 	</table>
+	<p>&nbsp;</p>
 	<button type="submit" class="btn">確定</button>
 	<a href="/画像入力画面.jsp" class="btn">戻る</a>
 	</form>
